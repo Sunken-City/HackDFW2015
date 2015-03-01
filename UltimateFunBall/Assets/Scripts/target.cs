@@ -18,7 +18,7 @@ public class target : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		if (breakSound) {
-			AudioSource.PlayClipAtPoint (breakSound, Vector3.zero);
+			AudioSource.PlayClipAtPoint (breakSound, new Vector3(0f, 1f, -10f));
 		}
 		GameController.instance.destroyTarget();
 		Destroy (this.gameObject);

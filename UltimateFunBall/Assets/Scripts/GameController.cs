@@ -3,6 +3,9 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
+	public GameObject confetti;
+	public string nextLevel;
+
 	[HideInInspector]
 	public static GameController instance;
 
@@ -11,7 +14,7 @@ public class GameController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+
 	}
 
 	void Awake() {
@@ -39,8 +42,14 @@ public class GameController : MonoBehaviour {
 		}
 	}
 
+	public IEnumerator wait() {
+		yield return new WaitForSeconds(3);
+	}
+
 	void finishLevel()
 	{
-		Debug.Log ("winner winner chickun dinnur");
+		Instantiate (confetti, new Vector3(0f, 0f, 0f), new Quaternion());
+		StartCoroutine ("wait");
+		Application.LoadLevel (nextLevel);
 	}
 }

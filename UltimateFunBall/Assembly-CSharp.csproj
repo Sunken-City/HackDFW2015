@@ -102,9 +102,13 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\bounce.cs" />
      <Compile Include="Assets\Scripts\obstacleMove.cs" />
+     <Compile Include="Assets\Scripts\spawnBall.cs" />
      <Compile Include="Assets\Scripts\target.cs" />
      <Compile Include="Assets\Scripts\windEffect.cs" />
+     <Compile Include="Assets\bindXandY.cs" />
+     <Compile Include="Assets\fixRotation.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
