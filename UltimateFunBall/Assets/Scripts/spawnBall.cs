@@ -36,7 +36,7 @@ public class spawnBall : MonoBehaviour {
 			collision.transform.localPosition = launcherPosition;
 			collision.transform.rigidbody.velocity = Vector3.zero;
 
-			AudioSource.PlayClipAtPoint(swoosh, new Vector3(0f, 5f, 0f));
+			AudioSource.PlayClipAtPoint(swoosh, new Vector3(0f, 0f, 0f));
 		}
 	}
 }
