@@ -4,6 +4,7 @@ using System.Collections;
 public class spawnBall : MonoBehaviour {
 
 	public GameObject ball;
+	public AudioClip swoosh;
 	//float lastStartTime = 0.0f;
 	//public float reloadTime = 3.0f;
 	public float velocityMultiplier = 2.0f;
@@ -34,6 +35,8 @@ public class spawnBall : MonoBehaviour {
 			//reset the launcher ball's position and velocity to starting values
 			collision.transform.localPosition = launcherPosition;
 			collision.transform.rigidbody.velocity = Vector3.zero;
+
+			AudioSource.PlayClipAtPoint(swoosh, new Vector3(0f, 5f, 0f));
 		}
 	}
 }
