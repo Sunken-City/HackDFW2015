@@ -5,6 +5,7 @@ public class GameController : MonoBehaviour {
 
 	public GameObject confetti;
 	public string nextLevel;
+	public float waitTime = 5.0f;
 
 	[HideInInspector]
 	public static GameController instance;
@@ -43,13 +44,13 @@ public class GameController : MonoBehaviour {
 	}
 
 	public IEnumerator wait() {
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(waitTime);
+		Application.LoadLevel (nextLevel);
 	}
 
 	void finishLevel()
 	{
 		Instantiate (confetti, new Vector3(0f, 0f, 0f), new Quaternion());
 		StartCoroutine ("wait");
-		Application.LoadLevel (nextLevel);
 	}
 }

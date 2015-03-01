@@ -109,6 +109,7 @@
      <Compile Include="Assets\Scripts\windEffect.cs" />
      <Compile Include="Assets\bindXandY.cs" />
      <Compile Include="Assets\fixRotation.cs" />
+     <Compile Include="Assets\resetCamera.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
