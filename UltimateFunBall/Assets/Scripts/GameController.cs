@@ -5,6 +5,8 @@ public class GameController : MonoBehaviour {
 
 	public GameObject confetti;
 	public string nextLevel;
+	public AudioClip tada;
+	public AudioClip yay;
 	public float waitTime = 5.0f;
 
 	[HideInInspector]
@@ -44,13 +46,16 @@ public class GameController : MonoBehaviour {
 	}
 
 	public IEnumerator wait() {
-		yield return new WaitForSeconds(waitTime);
+		AudioSource.PlayClipAtPoint (tada, new Vector3(0f, 5f, 0f));
+		yield return new WaitForSeconds(2);
+		AudioSource.PlayClipAtPoint (yay, new Vector3(0f, 5f, 0f));
+		yield return new WaitForSeconds(waitTime - 2);
 		Application.LoadLevel (nextLevel);
 	}
 
 	void finishLevel()
 	{
-		Instantiate (confetti, new Vector3(0f, 0f, 0f), new Quaternion());
+		Instantiate (confetti);
 		StartCoroutine ("wait");
 	}
 }
