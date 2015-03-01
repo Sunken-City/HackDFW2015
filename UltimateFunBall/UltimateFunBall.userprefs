@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LeapMotion\Scripts\Hands\RigidHand.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameController.cs">
     <Files>
       <File FileName="Assets\LeapMotion\Scripts\Hands\RigidHand.cs" Line="12" Column="40" />
+      <File FileName="Assets\Scripts\obstacleMove.cs" Line="5" Column="2" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="21" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

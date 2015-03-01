@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class destroyOnCollide : MonoBehaviour {
+public class target : MonoBehaviour {
 
 	public AudioClip breakSound;
 
 	// Use this for initialization
 	void Start () {
-	
+		GameController.instance.registerTarget ();
 	}
 	
 	// Update is called once per frame
@@ -20,7 +20,7 @@ public class destroyOnCollide : MonoBehaviour {
 		if (breakSound) {
 			AudioSource.PlayClipAtPoint (breakSound, Vector3.zero);
 		}
-		Debug.Log ("Destroyin'");	
+		GameController.instance.destroyTarget();
 		Destroy (this.gameObject);
 	}
 }
