@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\spawnBall.cs">
     <Files>
       <File FileName="Assets\Scripts\target.cs" Line="18" Column="1" />
       <File FileName="Assets\Scripts\obstacleMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameController.cs" Line="48" Column="37" />
-      <File FileName="Assets\Scripts\spawnBall.cs" Line="12" Column="32" />
-      <File FileName="Assets\fixRotation.cs" Line="22" Column="3" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="51" Column="33" />
+      <File FileName="Assets\Scripts\spawnBall.cs" Line="39" Column="57" />
+      <File FileName="Assets\fixRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\resetCamera.cs" Line="14" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

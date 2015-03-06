@@ -1,0 +1,23 @@
+Initialize engine version: 4.6.3f1 (4753d8b6ef2b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.3750]
+    Renderer: NVIDIA GeForce GTX 680M
+    Vendor:   NVIDIA
+    VRAM:     1990 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.038 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\awevents303\Desktop\Github\HackDFW2015\UltimateFunBall\slingshot_Data\Managed\System.dll (this message is harmless)
